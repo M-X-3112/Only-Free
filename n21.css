@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background: url(images/beauty-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 50px 10px;
+    
+}
+
+ul li a {
+    color: white;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 5px black;
+    transition: 1s;
+}
+ul li a i {
+    margin: 0 5px 0 0;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+    /* border: 1px solid #fff; */
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #fff;
+    transition: 1s;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.card a {
+    color: #57ecbd;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 5px;
+    transition: 1s;
+}
+
+span {
+    color: #b7b2b2;
+    font-size: 0.7rem;
+    display: inline-block;
+    margin: 5px 0 0 5px;
+}
+
+.dot {
+    /* font-size: 1em    ; */
+    border-left: 1px dotted #b7b2b2 ;
+    padding-left: 5px;
+}
+footer p {
+    margin: 40px 0 20px 0;
+    color: white;
+    font-size: .8em;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #777;
+}
+.card:hover {
+    transform: scale(120%);
+}
+.card a:hover {
+    color: gold;
+}
+
+
+@media only screen and (min-width: 768px) {
+    header li a {
+        font-size: 1.5em;
+    }
+
+    .card {
+        width: 20%;
+        display: inline-block;
+        margin: 40px 20px;
+    }
+    .cardtext a {
+        display: block;
+    }
+
+
+    footer p {  
+        margin-top: 150px;
+        font-size: 1.2em;
+    }
+}
