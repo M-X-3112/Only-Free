@@ -20,7 +20,7 @@ body {
     background: url(images/beauty-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100vh; */
+    min-height: 100vh;
 }
 
 .container {
